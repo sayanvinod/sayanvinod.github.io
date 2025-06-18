@@ -97,7 +97,7 @@ jobs:
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
-          purgecss -c purgecss.config.cjs
+          purgecss -c purgecss-runner.js
       - name: Set Git identity
         run: |
           git config --global user.name "sayanvinod"
