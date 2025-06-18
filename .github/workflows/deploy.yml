@@ -96,8 +96,8 @@ jobs:
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
-          npm install -g purgecss
-          purgecss -c purgecss-runner.js
+          npm install purgecss
+          node purgecss-runner.js
       - name: Set Git identity
         run: |
           git config --global user.name "sayanvinod"
