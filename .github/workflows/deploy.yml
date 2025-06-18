@@ -98,10 +98,15 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+      - name: Set Git identity
+        run: |
+          git config --global user.name "sayanvinod"
+          git config --global user.email "sayan@example.com"
       - name: Fix Permission
         run: |
           chmod a+x bin/*
-          git commit -am "add execute permission to bin/deploy"
+          git add bin/*
+          git commit -m "add execute permission to bin/deploy" || echo "No changes to commit"
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
