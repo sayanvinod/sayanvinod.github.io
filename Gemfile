@@ -4,7 +4,7 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
+    # gem 'wdm', '>= 0.1.0', platforms: [:mswin, :mingw, :x64_mingw]
     gem 'listen', '~> 3.7'
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
