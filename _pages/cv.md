@@ -1,7 +1,7 @@
 ---
-layout: resume
+layout: cv
 permalink: /resume/
-title: Resume
+title: resume
 nav: true
 nav_order: 5
 toc:
