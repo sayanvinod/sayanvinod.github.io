@@ -7,7 +7,7 @@ importance: 1
 category: work
 ---
 
-Hello! 
+Hello!
 
 This is my project that analyzes fundus photos and returns an output classifying the eye to either have myopia or not have myopia. The model uses computer vision techniques to analyze the features and classify the photo.
 
