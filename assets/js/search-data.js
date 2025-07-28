@@ -469,13 +469,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/sayan-vinod-947b3236b", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
