@@ -31,7 +31,7 @@ The dataset I decided to train my model with was a kaggle dataset that provided 
     </div>
 </div>
 
-I decided to use a YoloV8 model for my classification as it provided the most optimal and practical result. By using this model, I was able to 
+I decided to use a YoloV8 model for my classification as it provided the most optimal and practical result. By using this model, I was able to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
