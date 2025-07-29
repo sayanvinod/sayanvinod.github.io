@@ -23,7 +23,7 @@ The dataset I decided to train my model with was a kaggle dataset that provided 
     <div class="caption">
         Myopia Eye
     </div>
-    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading='eager' path='assets/img/normal1.png' title='normal eye' class='img-fluid rounded z-depth-1' %}
     </div>
     <div class="caption">
